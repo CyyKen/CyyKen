@@ -1,0 +1,131 @@
+body{
+   margin: 0px;
+   background-color: rgb(0, 0, 0);
+}
+
+/*Header*/
+
+header{
+   background-color: black;
+   height: 200px;
+}
+.Logo{
+   background-color: black;
+   background-image: url(Logo.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   background-size: 100%;
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   margin-top: 0px;
+}
+nav ul{
+   text-align: center;
+   padding: 0px;
+   margin: 0px;
+   display: flex;
+   flex-direction: row;
+}
+nav a{
+   color: white;
+   text-decoration: none;
+}
+
+nav li{
+   color: white;
+   display: inline-block;
+   text-align: unset;
+   width: 200px;
+   margin: auto;
+   font-size: 30px;
+}
+
+
+/*Main*/
+
+.Menu1{
+   background-image: url(menu1.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   width: 400px;
+   height: 600px;
+   background-size: 100%;
+   text-align: center;
+   margin-top: 0px;
+}
+.Menu2{
+   background-image: url(menu2.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   width: 400px;
+   height: 600px;
+   background-size: 100%;
+   text-align: center;
+   margin-top: 0px;
+}
+.Menu3{
+   background-image: url(menu3.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   width: 400px;
+   height: 600px;
+   background-size: 100%;
+   text-align: center;
+   margin-top: 0px;
+}
+.Menu4{
+   background-image: url(menu4.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   width: 400px;
+   height: 600px;
+   background-size: 100%;
+   text-align: center;
+   margin-top: 0px;
+}
+.Menu5{
+   background-image: url(menu5.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   width: 400px;
+   height: 600px;
+   background-size: 100%;
+   text-align: center;
+   margin-top: 0px;
+}
+.Menu6{
+   background-image: url(menu6.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   display: inline-block;
+   width: 400px;
+   height: 600px;
+   background-size: 100%;
+   text-align: center;
+   margin-top: 0px;
+}
+main{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+div{
+   margin: auto;
+}
+
+/*footer*/
+
+footer{
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size: 20px;
+   padding: 20px;
+}
